@@ -1,0 +1,181 @@
+.cityDH{
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    width: 1148px; 
+    height: 71px;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+
+    .xuanze{
+        // border: 1px solid black;
+        line-height: 21px;
+        font-size: 16px;
+        width: 100px;
+        height: 21px;
+        float: left;
+        color: #333333;
+        
+        margin:25px 16px 0;
+    }
+    .sheng{
+        cursor: pointer;
+        float: left;
+        width: 130px;
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        line-height: 40px;
+        margin-top: 15px;
+        span{
+            font-size: 16px;
+            color: #666666;
+            margin-left: 10px;
+        }
+        i{
+            margin-left: 65px;
+        }
+    }
+    .cheng{
+        &.chengs{
+            cursor: pointer;
+
+        }
+        cursor: not-allowed;;
+        margin:16px;
+        float: left;
+        margin-top: 15px;
+        width: 130px;
+        height: 40px;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        line-height: 40px;
+        span{
+            font-size: 16px;
+            color: #666666;
+            margin-left: 10px;
+        }
+        i{
+            margin-left: 65px;
+        }
+    }
+    .sousuoo{
+        span{
+            margin-top: 25px;
+            font-size: 16px;
+            margin-left: 40px;
+            // color: red;
+        }
+        input {
+            margin-left: 20px;
+            margin-top: 15px;
+            padding-left: 10px;
+            width: 220px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #e5e5e5;
+        }
+    }
+
+    .xiala{
+        position: relative;
+        top: 70px;
+        left: 130px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        z-index: 999999;
+        &::after{
+            content: "";
+            display: inline-block;
+            width: 0px;
+            height: 0px;
+            border: 7px solid #cccccc;
+            position: absolute;
+            top: -14px;
+            left: 35px;
+            border-left-color: transparent;
+            border-top-color: transparent;
+            border-right-color: transparent;
+        }
+        width: 264px;
+        height: 375px;
+        position: absolute;
+        background-color: white;
+        h1{
+            margin-left: 10px;
+            font-size: 18px;
+            color: #cccccc;
+        }
+        ul{
+            float: left;
+            margin: 10px 10px;
+            li{
+                text-align: center;
+                border-radius: 5px;
+                // border: 1px solid black;
+                margin: 10px;
+                padding: 2px 5px;
+                transition:  all 0.2s;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #e5e5e5;
+                }
+            }
+        }
+    }
+    .xiala2{
+        position: relative;
+        z-index: 999999;
+        top: 70px;
+        left: 280px;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        &::after{
+            content: "";
+            display: inline-block;
+            width: 0px;
+            height: 0px;
+            border: 7px solid #cccccc;
+            position: absolute;
+            top: -14px;
+            left: 35px;
+            border-left-color: transparent;
+            border-top-color: transparent;
+            border-right-color: transparent;
+        }
+       
+        height: 375px;
+        position: absolute;
+        background-color: white;
+        h1{
+            margin-left: 10px;
+            font-size: 18px;
+            color: #cccccc;
+        }
+        ul{
+            float: left;
+            margin: 10px 10px;
+            li{
+                text-align: center;
+                border-radius: 5px;
+                // border: 1px solid black;
+                margin: 10px;
+                padding: 2px 5px;
+                transition:  all 0.2s;
+                a{
+                    text-decoration: none;
+                    color: #333333;;
+                }
+               
+                &:hover{
+                    cursor: pointer;
+                    background-color: #e5e5e5;
+                }
+            }
+        }
+    }
+
+    
+}

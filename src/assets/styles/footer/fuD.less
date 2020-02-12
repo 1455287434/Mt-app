@@ -1,0 +1,55 @@
+.meiD{
+    width: 1220px;
+    border-bottom: 1px solid #e5e5e5;
+   
+    padding: 0px;
+
+    h1{
+        margin-top: 28px;
+        margin-left: 15px;
+        font-size: 16px;
+        float: left;
+        margin-right: 30px;
+        color: #333333
+        
+    }
+    .SSS{
+        
+        margin-left: 10px;
+        height: 70px;
+        width: 1000px;
+        margin-top: 15px;
+        display: inline-block;
+        // border: 1px solid  black;
+        a{
+            position: relative;
+            width: 88px;
+            margin-top: 10px;
+            text-decoration: none;;
+            color: #666666;
+            margin-right: 12px;
+            font-size: 14px;
+            // border: 1px solid black;
+            display: inline-block;
+            &.active{
+                &::after{
+                    content: "HOT";
+                    text-align: center;
+                    
+                    display: block;
+                    width: 30px;
+                    font-size: 14px;
+                    background-color: red;
+                    padding: 2px;
+                    border-radius: 15px;
+                    position: absolute;
+                    top: 0px;
+                    left: 35px;
+                }
+            }
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}

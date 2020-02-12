@@ -1,0 +1,86 @@
+.nav-L{
+    
+    border: 1px solid #E5E5E5;
+    background-color: white;
+    color: black;
+    position: relative;
+    .dl-1{
+        height: 456px;
+        dt{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+        dd{
+            margin: 10px 0px;
+            color: #666666;
+            z-index: 100000;
+            &:hover{
+                background-color: #E5E5E5;
+                color: red;
+            }
+            span{
+                vertical-align: middle;
+                margin-right: 10px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                // border: 1px solid black;
+                &.tu0{
+                    background-image: url(../../img/img1.png);
+                    background-size: cover;
+                }
+                &.tu1{
+                    background-image: url(../../img/img2.png);
+                    background-size: cover;
+                }
+                  &.tu2{
+                    background-image: url(../../img/img3.png);
+                    background-size: cover;
+                }
+                &.L{
+                    float: right;
+                    margin-right: 10px;
+                }
+
+
+            }
+        }
+       
+    }
+    .pos{
+        
+        background-color: white;
+        width: 500px;
+        height: 400px;
+        margin-top: 55px;
+        border: 1px solid #E5E5E5;
+        position: absolute;
+        top: 0px;
+        left: 255px;
+        z-index: 999999;
+        h2{
+            width: 400px;
+            margin: 20px auto 0px;
+            padding: 0 0 20px;
+            border-bottom: 1px solid #E5E5E5;
+            font-size: 16px;
+            font-weight: bold;
+            span{
+                font-size: 12px;
+                color: #999999; 
+                float:right;
+            }
+        }
+        span{
+            display: inline-block;
+            margin: 20px;
+            &:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+    }
+}

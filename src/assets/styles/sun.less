@@ -1,0 +1,108 @@
+.daohang {
+  position: relative;
+  color: #999;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  z-index: 100;
+  .tou-wrapper {
+    width: 1190px;
+    // border: 1px solid black;
+    margin: 0 auto;
+
+    .tou {
+      color: #999;
+
+      .dao-left {
+        
+        dt {
+          color: #666;
+          margin-right: 6px;
+          float: left;
+        }
+        dd {
+          margin-right: 6px;
+          float: left;
+        }
+      }
+      .sunjia{
+          dl{
+              
+              float: left;
+              margin: 0 10px;
+          }
+          .right1{
+              position: relative;
+            &:hover{
+                dt{
+                    background-color: white;
+                }
+                .sun-right1{
+                    display: block;
+                }
+              }
+              dt{
+                  width: 80px;
+                  text-align: center;
+              }
+              .sun-right1{
+                  display: none;
+                  position: absolute;
+                  left: -50px;
+                  top:40px;
+                  width: 130px;
+                  background-color: white;;
+                  dd{
+                      text-align: center;
+                  }
+              }
+          }
+      }
+      .dao-right {
+        &:hover{
+            dt{
+                background-color: white;
+            }
+            .dao{
+                display: block;
+            }
+        }
+       .dao{
+           display: none;
+           position: absolute;
+           background-color: white;
+       }
+       dd{
+           text-align: center;
+           width: 70px;
+        
+       }
+        dt {
+            text-align: center;
+          width: 70px;
+        
+        }
+      }
+    }
+  }
+}
+a {
+  &:hover {
+    color: #fe8c00;
+  }
+  &.tou-a {
+    color: #fe8c00;
+  }
+  &.tou-3 {
+    padding: 0 2px;
+  }
+  &.tou-a {
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+  &.dao-qie {
+    color: #666;
+  }
+  text-decoration: none;
+  color: #999;
+}
